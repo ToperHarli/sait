@@ -4,50 +4,54 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/style.css">
+	<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 </head>
 <body>
 	<div class="container">
-		<section class="top_section">
 
-		<header>
-			<div class="navbar-component">
-      <!-- Class `area` is a container -->
-      <div class="navbar area">
-        <!-- Logo -->
-        <a href="#" class="brand"><img src="img/logo_site.png" alt="Logo"/></a>
-        <!-- List of links -->
-        <nav role="navigation" id="navigation" class="list">
-          <a href="#" class="item -link">Home</a>
-          <a href="#" class="item -link">Articles</a>
-          <a href="#" class="item -link">Projects</a>
-          <a href="#" class="item -link">Resources</a>
-          <a href="#" class="item -link">About me</a>
-        </nav>
-      </div>
-    </div>
+	<header id="header">
+				<div class="box">
+			<a href="#" class="logo"><img src="img/logo_site.png" alt=""></a>
+			<nav>
+			<a href="#home">Home</a>
+			<a href="#features">Features</a>
+			<a href="#shop">Shop</a>
+			<a href="#blog">Blog</a>
+			<a href="#shop">Work</a>
+			<a href="#contact">Contact</a>
+			</nav>
+		</div>
+
 	
 		</header>
 
-		<img src="img/baner-head.png" alt="">
+		<section class="top_section" id="home">
 
+		<div class="anchor"><a href="#home"><img src="img/Left.png" alt=""></a></div>
+		<div class="img">
+		<img src="img/baner-head1.png" alt="">
+		</div>
 		<div class="text-container">
-			<h1>We Design Creative Website<br>
+			<h1>We Design <span style="color: rgb(240, 109, 110);">Creative Website</span><br>
 			For Enterprising People</h1>
 
 			<p>Lorem Ipsum dolor sit amet, consectetur adipisc ing elit.
 			Aliquam viverra consectetur nibh a blan dit. Proin at amet
 			consectetur adipisc lacinia nunc.
 			</p>
-			<br>
-			<br>
 
 			<a class="btn" href="#">View Projects</a>
+		<div class="but">
+		<span rel="1"></span>
+		<span rel="2"></span>
+		</div>
+
 		</div>
 		
 			
 		</section>
 		<section class="middle">
-			<div class="features">
+			<div class="features" id="features">
 			<h1>Check Out Features</h1>
 			<div class="features-m">
 				<div class="item">
@@ -95,10 +99,212 @@
 				</div>
 			</div>
 			</div>
-			<div class="work">
+			<div class="work" id="shop">
 				<h1>Our Latest Work</h1>
+				<div id="block-for-slider">
+        <div id="viewport">
+            <ul id="slidewrapper">
+                <li class="slide"><img src="https://hsto.org/files/8d4/b19/80d/8d4b1980d48c418090e2c4466d8c06e1.jpg" alt="1" class="slide-img"></li>
+                <li class="slide"><img src="https://hsto.org/files/ef1/3d7/97e/ef13d797e4c642c7a1d4b2b91f7ad7b3.jpg" alt="2" class="slide-img"></li>
+                <li class="slide"><img src="https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg" alt="3" class="slide-img"></li>
+                <li class="slide"><img src="https://hsto.org/files/eda/61a/3c5/eda61a3c53db408d820643998d9acd81.jpg" alt="4" class="slide-img"></li>
+            </ul>
+
+            <div id="prev-next-btns">
+                <div id="prev-btn"><img src="img/Left.png" alt=""></div>
+                <div id="next-btn"><img src="img/Right.png" alt=""></div>
+            </div>
+
+   
+        </div>
+    </div>
+			</div>
+			<div class="blog" id="blog">
+				<h1>Recent Blog Posts</h1>
+				<div class="post">
+					<div class="postt">
+						<img src="img/person-thumb1.png" alt="">
+						<p class="date">January 11.2014</p>
+						<p class="post-text">Lorem ipsum dolor si</p>t amet, consectetur adipising. Aliquam vivera dolor sit consectetur.
+					</div>
+					<div class="postt">
+						<img src="img/person-thumb2.png" alt="">
+						<p class="date">January 10.2014</p>
+						<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+					</div>
+					<div class="postt">
+						<img src="img/person-thumb3.png" alt="">
+						<p class="date">January 09.2014</p>
+						<p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing. Aliquam viverra dolor sit.</p>
+					</div>
+				</div>
 			</div>
 		</section>
+		<section class="footer" id="contact">
+			 <div id="googlemaps"></div>
+<div class="form">
+<h1>Contact Us Now</h1>
+<ul class="info">
+    <li>Lorem Ipsum address line1, address line 2</li>
+    <li>0414459237</li>
+    <li>Info@elegantblzz.com</li>
+</ul>
+	<form>
+<ul class="form-style-1">
+    <li><input type="text" name="field1" class="field-divided" placeholder="Name" />&nbsp;<input type="email" name="field2" class="field-divided" placeholder="Email" /></li>
+    <li>
+        <textarea name="field5" id="field5" class="field-long field-textarea" placeholder="Message"></textarea>
+    </li>
+    <li>
+        <input type="submit" value="" />
+
+    </li>
+</ul>
+</form>
+</div>
+		</section>
+		<footer>
+		<nav class="navf">
+			<a href="#home">Home</a>
+			<a href="#features">Features</a>
+			<a href="#shop">Shop</a>
+			<a href="#blog">Blog</a>
+			<a href="#shop">Work</a>
+			<a href="#contact">Contact</a>
+		</nav>
+		<div class="text">
+		<p>KreativePixel@ 2014 All Rights Reserved</p>
+		</div>
+	</footer>
 	</div>
+
+
+	<script src="scripts/jquery-1.6.2.min.js"></script>
+	<script>
+		window.onload=function(){
+var slideNow = 1;
+var slideCount = $('#slidewrapper').children().length;
+var slideInterval = 3000;
+var navBtnId = 0;
+var translateWidth = 0;
+
+$(document).ready(function() {
+    var switchInterval = setInterval(nextSlide, slideInterval);
+
+    $('#viewport').hover(function() {
+        clearInterval(switchInterval);
+    }, function() {
+        switchInterval = setInterval(nextSlide, slideInterval);
+    });
+
+    $('#next-btn').click(function() {
+        nextSlide();
+    });
+
+    $('#prev-btn').click(function() {
+        prevSlide();
+    });
+
+  
+});
+
+
+function nextSlide() {
+    if (slideNow == slideCount || slideNow <= 0 || slideNow > slideCount) {
+        $('#slidewrapper').css('transform', 'translate(0, 0)');
+        slideNow = 1;
+    } else {
+        translateWidth = -$('#viewport').width() * (slideNow);
+        $('#slidewrapper').css({
+            'transform': 'translate(' + translateWidth + 'px, 0)',
+            '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
+            '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
+        });
+        slideNow++;
+    }
+}
+
+function prevSlide() {
+    if (slideNow == 1 || slideNow <= 0 || slideNow > slideCount) {
+        translateWidth = -$('#viewport').width() * (slideCount - 1);
+        $('#slidewrapper').css({
+            'transform': 'translate(' + translateWidth + 'px, 0)',
+            '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
+            '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
+        });
+        slideNow = slideCount;
+    } else {
+        translateWidth = -$('#viewport').width() * (slideNow - 2);
+        $('#slidewrapper').css({
+            'transform': 'translate(' + translateWidth + 'px, 0)',
+            '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
+            '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
+        });
+        slideNow--;
+    }
+}
+}
+	</script>
+	<script>
+	$(document).ready(function(){
+		$(".but").each(function(){
+				var obj = $(this);
+				$(obj).find("span").first().addClass("active");
+				});
+
+		$("span").click(function(){
+		var n = $(this).attr("rel");
+		$(".but").find("span").removeClass("active");
+		$(this).addClass("active");
+		
+		var str = "img/baner-head"+ n +".png";
+		var oldi = $(".img img");
+		
+		var image = $("<img>").attr("src", str);
+		oldi.fadeOut(function(){
+		$(this).remove();
+		});
+		$(".img").append(image);
+		
+		
+	});
+	});
+	</script>
+	<script>
+		var position = [50.747268, 25.326501];
+     
+    function showGoogleMaps() {
+     
+    var latLng = new google.maps.LatLng(position[0], position[1]);
+     
+    var mapOptions = {
+        zoom: 16, // initialize zoom level - the max value is 21
+        streetViewControl: false, // hide the yellow Street View pegman
+        scaleControl: true, // allow users to zoom the Google Map
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        center: latLng
+    };
+     
+    map = new google.maps.Map(document.getElementById('googlemaps'),
+    mapOptions);
+     
+    // Show the default red marker at the location
+    marker = new google.maps.Marker({
+    position: latLng,
+    map: map,
+    draggable: false,
+    animation: google.maps.Animation.DROP
+    });
+    }
+ 
+    google.maps.event.addDomListener(window, 'load', showGoogleMaps);
+	</script>
+	<script>
+		window.onscroll = function() {
+  var scrolled = document.documentElement.scrollTop;
+  document.getElementById('header').style.opacity= scrolled==0?"1":"0.9";
+}
+
+	</script>
 </body>
 </html>
